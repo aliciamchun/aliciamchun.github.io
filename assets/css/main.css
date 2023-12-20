@@ -1301,16 +1301,14 @@ input, select, textarea {
 			#header .logo .icon:before {
 				font-size: 2rem;
 			}
-        #header .subaru_circle {
+        #header .logo__img {
         
             width: 5.5rem;
             height: 5.5rem;
             line-height: 5.5rem;
             border: solid 1px #ffffff;
             border-radius: 100%;
-        
-        
-    
+            
         }
 
 		#header .content {
