@@ -11,6 +11,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <style>
+            #more {display: none;}
+        </style>
 	</head>
 	<body class="is-preload">
 
@@ -72,27 +75,97 @@
 								<h2 class="major">Research</h2>
 								<h3>Investigating the Asteroseismic Detection Limits of Ground-Based Transient Surveys Using TESS and Kepler</h3>
                                 <div class="image-circle">
-                                    <img src="images/a.gif" alt="pulsating_star" style="width:200px" align="right">
+                                    <img src="images/asteroseismology.gif" alt="pulsating_star" style="width:300px" align="right">
                                 </div>
 
 								<p>Asteroseismology is the study of internal structures of stars through their oscillations.
 									Stars pulsate with different modes and complexities. In particular, M-giant stars are stars that 
 									are much cooler and larger than our sun. The special thing about M-giants is their luminosity pulsates 
 									with long periods, spanning up to multiple months, and large amplitudes.</p> 
-									
-								<!-- <p>The Period-Luminosity relation (or Leavitt law) shows that as 
+                                        
+                                <input type="checkbox" class="read-more-state" id="post-1"/>
+                                <div class="read-more-wrap"><b>Motivation: </b>The Period-Luminosity relation (or Leavitt law) shows that as 
 									stars pulsate with longer periods, their average luminosity increases. If we know a star's luminosity, we can
-									estimate how far that star is from Earth, which we can use to map the Milky Way and do galactic archeology. 
-								</p> -->
-
-								<p>
-									It is typical practice to use space-based telescopes like TESS and Kepler in asteroseismology. However, 
+									estimate how far that star is from Earth, which we can use to map the Milky Way and do galactic archeology.
+                                <span class="read-more-target">
+                                <p> It is typical practice to use space-based telescopes like TESS and Kepler in asteroseismology. However, 
 									when looking at specifically <b>M-giant</b> stars, space-based telescopes have some inherent drawbacks: 
-                                    (1) field of view is restricted, (2) observation baseline might be too short.
-								</p>
+                                    (1) field of view is restricted, (2) observation baseline might be too short.</span>
+                                </div>
+                                <label for="post-1" class="read-more-trigger"></label>
 
+
+                                <div>Content 2</div>
+                                <h3 class="major">Buttons</h3>
+                                <ul class="actions">
+                                    <li><a href="#" class="button primary">Primary</a></li>
+                                    <li><a href="#" class="button">Default</a></li>
+                                </ul>
+                                <ul class="actions">
+                                    <li><a href="#" class="button">Default</a></li>
+                                    <li><a href="#" class="button small">Small</a></li>
+                                </ul>
+                                <ul class="actions">
+                                    <li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+                                    <li><a href="#" class="button icon solid fa-download">Icon</a></li>
+                                </ul>
+                                <ul class="actions">
+                                    <li><span class="button primary disabled">Disabled</span></li>
+                                    <li><span class="button disabled">Disabled</span></li>
+                                </ul>
+
+
+
+                                <h4>Alternate</h4>
+                                <div class="table-wrapper">
+                                    <table class="alt">
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Description</th>
+                                                <th>Price</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Item One</td>
+                                                <td>Ante turpis integer aliquet porttitor.</td>
+                                                <td>29.99</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Item Two</td>
+                                                <td>Vis ac commodo adipiscing arcu aliquet.</td>
+                                                <td>19.99</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Item Three</td>
+                                                <td> Morbi faucibus arcu accumsan lorem.</td>
+                                                <td>29.99</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Item Four</td>
+                                                <td>Vitae integer tempus condimentum.</td>
+                                                <td>19.99</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Item Five</td>
+                                                <td>Ante turpis integer aliquet porttitor.</td>
+                                                <td>29.99</td>
+                                            </tr>
+                                        </tbody>
+                                        <tfoot>
+                                            <tr>
+                                                <td colspan="2"></td>
+                                                <td>100.00</td>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+                                </div>
+                                
 
 							</article>
+
+
 
 						<!-- About -->
 							<article id="about">
@@ -392,6 +465,23 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+            <script>
+                function myFunction() {
+                  var dots = document.getElementById("dots");
+                  var moreText = document.getElementById("more");
+                  var btnText = document.getElementById("myBtn");
+                
+                  if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "Read more"; 
+                    moreText.style.display = "none";
+                  } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Read less"; 
+                    moreText.style.display = "inline";
+                  }
+                }
+            </script>
 
 	</body>
 </html>
