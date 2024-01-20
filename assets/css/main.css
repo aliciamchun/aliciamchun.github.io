@@ -112,7 +112,7 @@ input, select, textarea {
 /* Type */
 
 	html {
-		font-size: 16pt;
+		font-size: 12pt;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -638,8 +638,6 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: 4px;
-		border: 0;
 		display: inline-block;
 		position: relative;
 	}
@@ -703,7 +701,7 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
-
+/* 
 		@media screen and (max-width: 736px) {
 
 			.image.main {
@@ -720,7 +718,7 @@ input, select, textarea {
 
 		}
 
-/* List */
+List */
 
 	ol {
 		list-style: decimal;
@@ -1290,17 +1288,18 @@ input, select, textarea {
 				display: none;
 			}
 
-		#header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
-			line-height: 5.5rem;
-			border: solid 1px #ffffff;
-			border-radius: 100%;
-		}
+        #header .logo {
+            width: 5.5rem;
+            height: 5.5rem;
+            line-height: 5.5rem;
+            border: solid 1px #ffffff;
+            border-radius: 100%;
+        }
 
-			#header .logo .icon:before {
-				font-size: 2rem;
-			}
+            #header .logo .icon:before {
+                font-size: 2rem;
+            }
+    
         #header .logo__img {
         
             width: 5.5rem;
@@ -1690,99 +1689,209 @@ input, select, textarea {
 
 
 
+          .read-more-state {
+            display: none;
+          }
+          
+          .read-more-target {
+            opacity: 0;
+            max-height: 0;
+            font-size: 0;
+            transition: .25s ease;
+          }
+          
+          .read-more-target img {
+            height: 0;
+          }
+          
+          .read-more-state:checked ~ .read-more-wrap .read-more-target img {
+            height: auto;
+          }
+          
+          .read-more-state:checked ~ .read-more-wrap .read-more-target {
+            opacity: 1;
+            font-size: inherit;
+            max-height: 999em;
+          }
+          
+          .read-more-state ~ .read-more-trigger:before {
+            content: 'Spoilers';
+          }
+          
+          .read-more-state:checked ~ .read-more-trigger:before {
+            content: "Show Less";
+          }
+          
+          .read-more-trigger {
+            margin-top: 40px;
+            cursor: pointer;
+            display: block;
+            padding: 0.3em;
+            background-color: rgba(0, 0, 0, 0.5);
+            font-size: .9em;
+            line-height: 2;
+            border: 1px solid #d8d8d8;
+            border-radius: .25em;
+            margin: 0 auto;
+            width: 150px;
+            text-align: center;
+          }
 
-        /* .read-more-state {
-        display: none;
-        }
-        
-        .read-more-target {
-        opacity: 0;
-        max-height: 0;
-        font-size: 0;
-        transition: .25s ease;
-        }
-        
-        .read-more-target img {
-        height: auto;
-        }
-        
-        .read-more-state:checked ~ .read-more-wrap .read-more-target img {
-		height: auto;
-        
-        }
-        
-        .read-more-state:checked ~ .read-more-wrap .read-more-target {
-        opacity: 1;
-        font-size: inherit;
-        max-height: 999em;
-        
-        }
-        
-        .read-more-state ~ .read-more-trigger:before {
-        content: 'Show more';
-        }
-        
-        .read-more-state:checked ~ .read-more-trigger:before {
-        content: 'Show less';
-        }
-        
-        .read-more-trigger {
-        cursor: pointer;
-        display: inline-block;
-        padding: 0 .5em;
-        color: #666;
-        font-size: .9em;
-        line-height: 2;
-        border: 1px solid #ddd;
-        border-radius: .25em;
-        align-items: right; 
-        } */
-		.read-more-state {
-			display: none;
-		  }
-		  
-		  .read-more-target {
-			opacity: 0;
-			max-height: 0;
-			font-size: 0;
-			transition: .25s ease;
-		  }
-		  
-		  .read-more-target img {
-			height: 0;
-		  }
-		  
-		  .read-more-state:checked ~ .read-more-wrap .read-more-target img {
-			height: auto;
-		  }
-		  
-		  .read-more-state:checked ~ .read-more-wrap .read-more-target {
-			opacity: 1;
-			font-size: inherit;
-			max-height: 999em;
 
-		  }
-		  
-		  .read-more-state ~ .read-more-trigger:before {
-			content: 'Show more';
-		  }
-		  
-		  .read-more-state:checked ~ .read-more-trigger:before {
-			content: 'Show less';
-		  }
-		  
-		  .read-more-trigger {
-			cursor: pointer;
-			display: inline-block;
-			padding: 0 .5em;
-			color: #666;
-			font-size: .9em;
-			line-height: 2;
-			border: 1px solid #ddd;
-			border-radius: .25em;
-			
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			text-align: center;
-		  }
+          #wrapperforbutton {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+
+
+/*
+Theme Name: WP-Dimension
+Theme URI: http://github.com/cogdog/wp-dimension
+Author: Alan Levine
+Author URI: https://cog.dog
+Version: 2.01
+Description: Use this theme for a single screen, clean calling card site, based on the HTML5 UP theme Dimension template. Have up to 10 front page box links for short content (anything that fits into a post) with optional buttons that link to outside content or longer content on the Page Template. Add a social media icon theme with the Font Awesome 5 menus plugin.
+License: Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* note Main theme CSS is loaded from assets/main.css
+
+   WordPress specific CSS is below
+*/
+
+
+/* Custom logo */
+
+.logo {
+	overflow: hidden;
+}
+
+.logo img {
+	 width: 100%;
+	 height: 100%;
+}
+
+/* WP Alignment */
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p.edit-this {
+    text-align: right;
+    font-size: 90%;
+    color: yellow;
+}
+
+a.post-edit-link {
+    border: none;
+}
+
+span.fontawesome-text {
+    display: none;
+}
+
+
+ul.actions a {
+    border: none;
+}
+
+ul.actions li span {
+    font-size: 2rem;
+}
+
+h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
+    width: unset;
+}
+
+@media screen and (max-width: 480px) {
+	ul.actions li:last-child {
+		padding-right:0;
+	}
+}
+
+
+@media screen and (min-width: 481px) {
+    #header nav {
+        display: table;
+        width: 90%;
+        table-layout: fixed;
+    }
+
+    #header nav ul {
+        display: table-row;
+        margin: 0;
+        padding: 0;
+        list-style:none;
+    }
+
+    #header nav ul li {
+        list-style: none;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        padding: 0;
+        border: 1px solid white;
+        border-left: none;
+        cursor:pointer;
+        overflow-wrap: break-word;
+    }
+
+    #header nav ul li:hover {
+      background-color: rgba(255, 255, 255, 0.075);
+    }
+
+    #header nav ul li.active {
+      background-color: rgba(255, 255, 255, 0.175);
+    }
+
+
+    #header nav ul li:first-child {
+        border-left: 1px solid white;
+        border-radius: 8px 0 0 8px;
+    }
+
+    #header nav ul li:last-child {
+        border-radius: 0 8px 8px 0;
+    }
+
+    #header nav ul li a {
+        display: block;
+        min-width: inherit;
+        height: inherit;
+        line-height: inherit;
+        padding: .5rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        font-size: 0.8rem;
+        border:0;
+        text-decoration: none;
+    }
+
+    #header nav ul li a:hover {
+      background-color: none;
+    }
+}
+
+#header .logo {
+    width: 15.5rem;
+    height: 15.5rem;
+}
+
