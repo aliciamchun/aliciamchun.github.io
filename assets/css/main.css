@@ -701,12 +701,13 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
-            
+
             #container {
-                text-align: center;
+                text-align: right;
+                align-content: ;
             }
             a, figure {
-                display: inline-block;
+                align-right: right;
             }
             figcaption {
                 margin: 10px 0 0 0;
@@ -715,9 +716,18 @@ input, select, textarea {
                 font-weight: bold;
                 color: #bb3333;
             }
-            figure {
-                padding: 5px;
+
+            #images{
+                text-align:center;
+                margin:50px auto; 
             }
+            #images a{
+                margin:0px 20px;
+                display:inline-block;
+                text-decoration:none;
+                color:black;
+             }
+             
             img:hover {
                 transform: scale(1.1);
                 -ms-transform: scale(1.1);
