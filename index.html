@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        
         <style>
             #more {display: none;}
         </style>
@@ -37,7 +38,7 @@
 								<li><a href="#research">Research</a></li>
 								<li><a href="#passions">Passions</a></li>
 								<li><a href="files/achun_cv.pdf">CV</a></li> <!-- Make this About Later -->
-								<li><a href="#contact">Contact</a></li>
+								<!-- <li><a href="#contact">Contact</a></li> -->
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
 						</nav>
@@ -102,12 +103,10 @@
                                 <span class="read-more-target">
                                     <div style="min-width:500px;">
                                         <center>
-                                            <img class="images" src="images/ASAS-SNFinal.png" alt="" style="width:400px; padding-top:30px;">
+                                            <img class="images" src="images/ASAS-SNFinal.png" alt="ASAS-SN Characterization" style="width:400px; padding-top:30px;">
                                         </center>
                                     </div>
                                     <br>
-
-							
 								</span> 
                                 </div>
 								<label for="post-1" class="read-more-trigger"></label>
@@ -119,6 +118,9 @@
                                         <li><a href="https://www.youtube.com/watch?v=hNwKU7kQk0Q&feature=youtu.be&ab_channel=UHInstituteforAstronomy" class="button">2023 Talk</a></li>
                                     </ul>
                                 </div>
+
+
+                                
                                 <hr>
                                 <h3>Characterizing Deformable Mirror AO3k with NAOJ</h3>
                                 <span class="image main">
@@ -147,15 +149,15 @@
                                 </p>
 
 
-								<input type="checkbox" class="read-more-state" id="post-2"/>
+								<input type="checkbox" class="read-more-state2" id="dm"/>
                                 
-                                <div class="read-more-wrap">
+                                <div class="read-more-wrap2">
                                     I worked with Dr. Olivier Guyon and Dr. Julien Lozi to characterize the movement of each actuator
                                     in the AO3k. 
     
                                 <br>
-                                <span class="read-more-target">
-                                <img class="images" src="images/slow_gif.gif" alt="pulsating_star" style="width: 330px; padding-left:5px;" align="right">
+                                <span class="read-more-target2">
+                                <img class="images" src="images/slow_gif.gif" alt="dm_wf" style="width: 330px; padding-left:5px;" align="right">
 
                                 I found three unexpected behaviors with the AO3k inclusing unresponsive actuators,
                                 uneven actuator response, and eleveted actuator response around the mirror edge. I presented these
@@ -165,10 +167,10 @@
                                 A paper on the opto-mechanical design, integration and lab tests of the AO3k and additional
                                 improvements on SCExAO will be submitted to SPIE in June 2024.
 
-                                <br>
+
 								</span> 
                                 </div>
-								<label for="post-2" class="read-more-trigger"></label>
+								<label for="dm" class="read-more-trigger2"></label>
 
                                 <br>
 
@@ -258,19 +260,47 @@
                         <article id="passions">
                             <h2 class="major">passions</h2>
                             <h3> Circus Arts</h3>
-                            <p> I am passionate about performing in shows with Le Vorris and Vox (LVV) Circus. 
-                                My specializations are partner acrobatics and the lyra. I often teach classes
-                                with my acro partner, Fabrizio Ferro, for LVV Circus.
-                                
+                            <p>
+                            I am passionate about performing in shows with Le Vorris and Vox (LVV) Circus. 
+                            My specializations are partner acrobatics and the lyra.
+                            </p>
+                            <span class="image main"><img src="images/circus_photos/fabi_alicia.png" alt="pink" style="width:300px;padding-left:20px;padding-bottom:10px" align="right"/></span>
+                            <p>
+                                I teach classes with my acro partner, Fabrizio Ferro, for LVV Circus. 
                                 I am current the President of LVV Circus in which I direct and write shows and am the liason between 
                                 the University of Chicago and LVV. 
                             </p>
-                            <span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-                            <h3>Electric Circuit Building</h3>
-                            
-                            <h3>Photography</h3>
 
-                            <h3>UChicago Course Recommendations</h3>
+                            <p>
+                                If you're interested in taking classes in Silks, Bar Aerials, Contortion, or Partner Acrobatics, please reach out to me at aliciamchun@uchicago.edu with
+                                an email header of "Interest in LVV Circus Classes".
+                                <br>
+                                We also have quarterly performances and are open to having new performers join our circus. Likewise, 
+                                reach out to me with the header of "Interest in Performing with LVV Circus".
+                            </p>
+                            
+
+                            <div id="wrapperforbutton">
+                                <ul class="actions">
+                                    <li><a href="https://youtu.be/7Ha69Beeins?si=nZ8jq5MxUxCJfg1F" align="center" class="button primary">Our Latest Show</a></li>
+                                </ul>
+                                
+                                <ul class="icons">
+                                    <li>
+                                    </li>
+                                    <li><a href="#" class="icon brands fa-instagram"><span class="label">LVVInstagram</span></a></li>
+                                    
+                                </ul>
+                                
+                            </div>
+                            <hr>
+                            <h3>...more to come</h3> 
+                            
+                            <!-- <h3>Electric Circuit Building</h3>
+                            
+                            <h3>Photography</h3> -->
+
+                            <!-- <h3>UChicago Course Recommendations</h3> -->
                             
                         </article>
 
@@ -282,7 +312,7 @@
 							</article> -->
 
 						<!-- Contact -->
-							<article id="contact">
+							<!-- <article id="contact">
 								<h2 class="major">Contact</h2>
 								<form method="post" action="#">
 									<div class="fields">
@@ -304,13 +334,7 @@
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
 								</form>
-								<ul class="icons">
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</article>
+							</article> -->
 
 						<!-- Elements -->
 							<article id="elements">
