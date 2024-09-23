@@ -171,7 +171,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #fff;
+		color: #ffffff;
 		font-weight: 800;
 		letter-spacing: 0.225em;
 		line-height: 1em;
@@ -3015,7 +3015,7 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background-color: #2e3842;
+			background-color: #134e0f9d; /* *** */
 		}
 
 		.wrapper.style3 {
@@ -3182,7 +3182,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style5 {
-			background-color: #244d8081; /* *** */
+			background-color: #412b1780; /* *** */
 			color: #dbdce3;
 		}
 
@@ -3484,7 +3484,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease;
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
-		background: #2e3842;
+		background: #153d19b6; /* *** header color */
 		height: 3em;
 		left: 0;
 		line-height: 3em;
