@@ -3950,7 +3950,7 @@ input, select, textarea {
 
 	#footer {
 		padding: 1.5em 0 0.75em 0 ;
-		background-color: #7d462f61; /* *** */
+		background-color: #e5cfc6b6; /* *** */
 		text-align: center;
 	}
 
@@ -4040,7 +4040,7 @@ input, select, textarea {
 	}
 
 	body.landing #footer {
-		background-color: #7d462f61; /* *** */
+		background-color: #d4c3bc70; /* *** */
 	}
 
 	body.is-mobile.landing #page-wrapper {
@@ -4059,7 +4059,7 @@ input, select, textarea {
 	}
 
 	body.is-mobile.landing #footer {
-		background-color: #7d462f61; /* *** */
+		background-color: #d4c3bc70; /* *** */
 	}
 
 
