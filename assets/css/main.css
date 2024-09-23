@@ -3938,7 +3938,7 @@ input, select, textarea {
 
 	#footer {
 		padding: 1.5em 0 0.75em 0 ;
-		background-color: #ffe0d3b4;
+		background-color: #7d462f61; /* *** */
 		text-align: center;
 	}
 
@@ -4028,7 +4028,7 @@ input, select, textarea {
 	}
 
 	body.landing #footer {
-		background-color: #ffe0d3b4; /* *** */
+		background-color: #7d462f61; /* *** */
 	}
 
 	body.is-mobile.landing #page-wrapper {
@@ -4047,7 +4047,7 @@ input, select, textarea {
 	}
 
 	body.is-mobile.landing #footer {
-		background-color: #ffe0d3b4; /* *** */
+		background-color: #7d462f61; /* *** */
 	}
 
 
