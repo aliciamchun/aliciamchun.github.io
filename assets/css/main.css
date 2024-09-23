@@ -3850,7 +3850,7 @@ input, select, textarea {
 		}
 
 /* Main */
-	#main > header.default {
+	#main > header.default { /* *** Banner photos*/
 		padding: 4em 0 5em 0;
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/research/Optics/mirrors_of_keck.JPG");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/research/Optics/mirrors_of_keck.JPG");
@@ -3865,10 +3865,10 @@ input, select, textarea {
 
 	#main > header.alt {
 		padding: 4em 0 5em 0;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../../images/personal/skyline.JPG");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../../images/personal/skyline.JPG");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../../images/personal/skyline.JPG");
-		background-image: linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../../images/personal/skyline.JPG");
+		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.217), rgba(0,0,0,0.217)), url("../../images/personal/banner.JPG");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.217)), url("../../images/personal/banner.JPG");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.217), rgba(0,0,0,0.217)), url("../../images/personal/banner.JPG");
+		background-image: linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../../images/personal/banner.JPG");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3876,6 +3876,18 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	#main > header.extra {
+		padding: 4em 0 5em 0;
+		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7)), url("../../images/projects/banner.png");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../../images/projects/banner.png");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../../images/projects/banner.png");
+		background-image: linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../../images/projects/banner.png");
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: center;
+	}
 
 		#main > header h2 {
 			font-size: 1.75em;
