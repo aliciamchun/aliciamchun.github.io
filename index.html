@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Alicia M. Chun</title>
@@ -11,651 +6,98 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-        
-        <style>
-            #more {display: none;}
-        </style>
 	</head>
-	<body class="is-preload">
+	<body class="landing is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
 
 				<!-- Header -->
-					<header id="header">
-                        <div class="logo">
-                            <img src="images/chun_logo.jpg" alt="Alicia Chun">
-                        </div>
-						<div class="content">
-							<div class="inner">
-								<h1>Alicia M. Chun</h1>
-                                <h2>Building things. </h2>
-							</div>
-						</div>
-						<nav>
+					<header id="header" class="alt">
+						<h1><a href="index.html">Alicia M. Chun</a></h1>
+						<nav id="nav">
 							<ul>
-								<li><a href="#prelude">Prelude</a></li>
-								<li><a href="#research">Research</a></li>
-								<li><a href="#passions">Passions</a></li>
-								<li><a href="files/achun_resume.pdf">CV</a></li> <!-- Make this About Later -->
-								<!-- <li><a href="#contact">Contact</a></li> -->
-								<!--<li><a href="#elements">Elements</a></li>-->
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="research.html">Research</a></li>
+											<li><a href="projects.html">Projects</a></li>
+											<li><a href="personal.html">Personal Interests</a></li>
+										</ul>
+									</div>
+								</li>
 							</ul>
 						</nav>
 					</header>
 
-				<!-- Main -->
-					<div id="main">
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<h2>Alicia M. Chun</h2>
+							<p>Space science and computer science.</p>
+							<ul class="actions special">
+								<li><a href="research.html" class="button primary">Research</a></li>
+								<li><a href="projects.html" class="button primary">Projects</a></li>
+								<li><a href="personal.html" class="button primary">Personal Interests</a></li>
+								<li><a href="resume.pdf">Resume</a></li>
 
-						<!-- Intro -->
-							<article id="prelude">
-								<h1 class="major">PRELUDE</h2>
+							</ul>
+						</div>
+						<a href="#one" class="more scrolly">Learn More</a>
+					</section>
 
-                                <span class="image main">
-                                    <img src="images/subaru.JPG" >
-                                </span>
-                                <p>Hello! I’m a third-year undergraduate at the <a href="https://www.uchicago.edu/en">University of Chicago</a> 
-                                    pursuing a B.S. in computer science with a specialization 
-                                    <a href="https://cs.uchicago.edu/research/human-computer-interaction/">human computer interaction</a> 
-                                    and a minor in physics. My research interests include exoplanet imaging, adaptive optics, and space-based sustainability.
-                                    After I graduate UChicago in June 2025, I plan to enter the industry in the optical sciences or in engineering for a few years before 
-                                    applying to graduate school to pursue a Ph.D. in the Optical Sciences. 
-                                </p>
-                                <p> I am deeply committed to sustainability and education. 
-                                    My belief is rooted in the idea that every child deserves access to high-quality education, 
-                                    and I am dedicated to ensuring that my work actively contributes to making the world a better place to live in.
-                                    Outside of computer science and physics, I also love circus arts, photography, tennis, and electronic circuit building.</p>
-						
-							</article>
-
-						<!-- Research -->
-							<article id="research">
-								<h1 class="major">Research</h1>
-								<h3>The Asteroseismic Detection Limits of Ground-Based Transient Surveys</h3>
-                                <div class="image-circle">
-                                    <img align="right" src="images/asteroseismology.gif" alt="pulsating_star" style="width:300px">
-                                </div>   
-								Asteroseismology is the study of internal structures of stars through their pulsations.
-								M-giant star are much cooler and larger than our sun; the special thing about M-giants is their luminosity pulsates 
-								with long periods, spanning up to multiple months, and with large changes in luminosity. [Image courtesy AsteroSTEP Outreach]
-                                <!-- <br> <br>
-                                <b>Motivation: </b>The Period-Luminosity relation (or Leavitt law) shows that as 
-                                stars pulsate with longer periods, their average luminosity increases. If we know a star's luminosity, we can
-                                estimate how far that star is from Earth, which we can use to map the Milky Way and do galactic archeology. -->
-                                <br><br>
-                                <b>Problem: </b>It is typical practice to use space-based telescopes like TESS and Kepler in asteroseismology. However, 
-                                when looking at specifically <b>M-giant</b> stars, space-based telescopes have some inherent drawbacks: 
-                                (1) field-of-view is restricted, (2) observation baseline might be too short.
-
-                                <br><br>
-                                <b>My Proposed Solution</b>: I worked with Professor Daniel Huber at the University of Hawai`i Institute for Astronomy to see if we could detect these oscillations in M-giants
-                                with ground-based transient surveys, consisting of a field-of-view of the entire night sky with observation baselines
-                                of at least 2 years. Using the All Sky Automated Survey for SuperNovae (ASAS-SN) telescope, I found that ASAS-SN can retrieve these pulsations for
-                                M-giants with frequencies below 1 µHz within the 9th mag to 13th mag in the Gaia band. <b>With this, ASAS-SN can characterize
-                                distances for ~5 million M-giants. </b> 
-                                
-
-								<input type="checkbox" class="read-more-state" id="post-1"/>
-                                <br>
-                                
-                                <div class="read-more-wrap">
-                                    
-                                <span class="read-more-target">
-                                    <div style="min-width:500px;">
-                                        <center>
-                                            <img class="images" src="images/ASAS-SNFinal.png" alt="ASAS-SN Characterization" style="width:400px; padding-top:30px;">
-                                        </center>
-                                    </div>
-                                    <br>
-								</span> 
-                                </div>
-								<label for="post-1" class="read-more-trigger"></label>
-
-                                <br>
-                                <div id="wrapperforbutton">
-                                    <ul class="actions">
-                                        <li><a href="https://aas243-aas.ipostersessions.com/Default.aspx?s=DB-1E-9A-81-17-83-30-A0-76-E9-72-FA-FB-06-D6-2B" align="center" class="button primary">2024 AAS 243 iPoster</a></li>
-                                        <li><a href="https://www.youtube.com/watch?v=hNwKU7kQk0Q&feature=youtu.be&ab_channel=UHInstituteforAstronomy" class="button">2023 Talk</a></li>
-                                    </ul>
-                                </div>
-
-
-                                
-                                <hr>
-                                <h3>Characterizing Deformable Mirror AO3k with NAOJ</h3>
-                                <span class="image main">
-                                    <img src="images/DM-gif-2020.gif" style="width: 310px; padding: 0px 0px 0px 15px" align="right">
-                                </span>
-                                <p>
-                                    Imagine swimming underwater and looking up at the clouds. From this perspective, 
-                                    the clouds are distorted and moving rapidly. The same concept applies for stars 
-                                    and our atmosphere: stars twinkle due to variations in atmosphere refractions. These
-                                    abberations make it difficult to precisely image extrasolar objects. Adaptive Optics (AO) is a 
-                                    subfield of astronomy instrumentation aims to reduce these abberations. It involves a Deformable 
-                                    Mirror (DM) that has several actuators within its mirror that shifts the wave front to fix the 
-                                    image distortions. [Image courtesy ALPAO]
-                                </p>
-                                <span class="image main">
-                                    <img src="images/subaru_dm.jpeg" style="width: 310px; padding: 0px 20px 10px 0px" align="left">
-                                </span>
-
-                                
-                                <p>
-                                    The National Astronomical Observatory of Japan (NAOJ) Subaru Telescope has an instrument
-                                    that works to reduce abberations in order to image exoplanets called Subaru Coronographic
-                                    Extreme Adaptive Optics (SCExAO). SCExAO's current DM has 188 actuators that are capable of 
-                                    deforming the wave front. However, we are in the process of integrating a new 3224-actuator DM
-                                    from ALPAO called the AO3k.                                 
+				<!-- One -->
+					<section id="one" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								
+								<h2>Hello! </h2>
+								<p><span class="image right"><img src="images/chun_titlephoto.jpg" alt="" /></span>
+                                	I’m a fourth-year undergraduate at the 
+									<a href="https://www.uchicago.edu/en">University of Chicago</a> 
+                                    pursuing a B.S. in Computer Science with a specialization in machine 
+									learning and a minor in Physics. 
+								</p>
+								<p>
+									My research lies at the intersection between between computer science, 
+									space science, and sustainability. After I graduate UChicago in June 2025, 
+									I aim to  enter the industry working in either space science, sustainability, 
+									computer science, or at the intersection of these domains. 
                                 </p>
 
+                                <p> Beyond research, I am passionate about teaching. I believe that every person 
+									deserves access to a high-quality education. 
+									
+                                    Outside of computer science and physics, I also love circus, photography, and circuit building.
+								</p>
 
-								<input type="checkbox" class="read-more-state2" id="dm"/>
-                                
-                                <div class="read-more-wrap2">
-                                    I worked with Dr. Olivier Guyon and Dr. Julien Lozi to characterize the movement of each actuator
-                                    in the AO3k. 
-    
-                                <br>
-                                <span class="read-more-target2">
-                                <img class="images" src="images/dm_wavefront.gif" alt="dm_wf" style="width: 330px; padding-left:5px;" align="right">
-
-                                I found three unexpected behaviors with the AO3k inclusing unresponsive actuators,
-                                uneven actuator response, and eleveted actuator response around the mirror edge. I presented these
-                                findings to ALPAO and we sent the AO3k back to France for repairs in these behaviors.     
-                                <br>
-
-                                A paper on the opto-mechanical design, integration and lab tests of the AO3k and additional
-                                improvements on SCExAO will be submitted to SPIE in June 2024.
-
-
-								</span> 
-                                </div>
-								<label for="dm" class="read-more-trigger2"></label>
-
-                                <br>
-
-                                  
-                                <div id="wrapperforbutton">
-                                    <ul class="actions">
-                                        <li><a href="https://ao4elt7.sciencesconf.org/499228/document" align="center" class="button primary">Proceedings for AO4ELT</a></li>
-                                    </ul>
-                                </div>
-
-
-
-
-
-<!-- 
-                                <div>Content 2</div>
-                                <h3 class="major">Buttons</h3>
-                                <ul class="actions">
-                                    <li><a href="#" class="button primary">Primary</a></li>
-                                    <li><a href="#" class="button">Default</a></li>
-                                </ul>
-                                <ul class="actions">
-                                    <li><a href="#" class="button">Default</a></li>
-                                    <li><a href="#" class="button small">Small</a></li>
-                                </ul>
-                                <ul class="actions">
-                                    <li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-                                    <li><a href="#" class="button icon solid fa-download">Icon</a></li>
-                                </ul>
-                                <ul class="actions">
-                                    <li><span class="button primary disabled">Disabled</span></li>
-                                    <li><span class="button disabled">Disabled</span></li>
-                                </ul> -->
-
-
-
-                                <!-- <h4>Alternate</h4>
-                                <div class="table-wrapper">
-                                    <table class="alt">
-                                        <thead>
-                                            <tr>
-                                                <th>Name</th>
-                                                <th>Description</th>
-                                                <th>Price</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>Item One</td>
-                                                <td>Ante turpis integer aliquet porttitor.</td>
-                                                <td>29.99</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Item Two</td>
-                                                <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                                                <td>19.99</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Item Three</td>
-                                                <td> Morbi faucibus arcu accumsan lorem.</td>
-                                                <td>29.99</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Item Four</td>
-                                                <td>Vitae integer tempus condimentum.</td>
-                                                <td>19.99</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Item Five</td>
-                                                <td>Ante turpis integer aliquet porttitor.</td>
-                                                <td>29.99</td>
-                                            </tr>
-                                        </tbody>
-                                        <tfoot>
-                                            <tr>
-                                                <td colspan="2"></td>
-                                                <td>100.00</td>
-                                            </tr>
-                                        </tfoot>
-                                    </table>
-                                </div> -->
-                                
-
-							</article>
-
-						<!-- My Passions -->
-                        <article id="passions">
-                            <h2 class="major">passions</h2>
-                            <h3> Circus Arts</h3>
-                            <p>
-                            I am passionate about performing in shows with Le Vorris and Vox (LVV) Circus. 
-                            My specializations are partner acrobatics and the lyra.
-                            </p>
-                            <span class="image main"><img src="images/circus_photos/fabi_alicia.png" alt="pink" style="width:300px;padding-left:20px;padding-bottom:10px" align="right"/></span>
-                            <p>
-                                I teach classes with my acro partner, Fabrizio Ferro, for LVV Circus. 
-                                I am current the President of LVV Circus in which I direct and write shows and am the liason between 
-                                the University of Chicago and LVV. 
-                            </p>
-
-                            <p>
-                                If you're interested in taking classes in Silks, Bar Aerials, Contortion, or Partner Acrobatics, please reach out to me at aliciamchun@uchicago.edu with
-                                an email header of "Interest in LVV Circus Classes".
-                                <br>
-                                We also have quarterly performances and are open to having new performers join our circus. Likewise, 
-                                reach out to me with the header of "Interest in Performing with LVV Circus".
-                            </p>
-                            
-
-                            <div id="wrapperforbutton">
-                                <ul class="actions">
-                                    <li><a href="https://youtu.be/7Ha69Beeins?si=nZ8jq5MxUxCJfg1F" align="center" class="button primary">Our Latest Show</a></li>
-                                </ul>
-                                
-                                <ul class="icons">
-                                    <li>
-                                    </li>
-                                    <li><a href="#" class="icon brands fa-instagram"><span class="label">LVVInstagram</span></a></li>
-                                    
-                                </ul>
-                                
-                            </div>
-                            <hr>
-                            <h3>Electronic Circuit Building</h3>
-                            I'm currently working on a project that uses Electric Muscle Stimulation (EMS)
-                            to create a human drum "loop pedal". Here is the basic sketch design: 
-
-
-
-                            <html>
-                            <head>
-                                <title>PDF Example by Object Tag</title>
-                            </head>
-                            <body>
-                                <object data="files/human_drum_sketch.pdf" type="application/pdf" width="100%" height="500px" align="center">
-                                <p>Unable to display PDF file. <a href="files/human_drum_sketch.pdf">Download</a> instead.</p>
-                                </object>
-                            </body>
-                            </html>
-                            <p>
-                                And here's the first prototype iteration in action!
-                            </p>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/A-OjZe4ul9s?si=9hIBtreB9DYgjtaj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            <p>
-                                If you're interested in the other small projects I've done, click <a href="https://www.youtube.com/watch?v=yk0WGHY2VGw&list=PL503OK4oBKPPJodxDaxhTQekvjudpCGTH&pp=gAQBiAQB">here</a>.
-                            </p>
-                            <hr>
-                            <h3>Teaching Experience</h3>
-                            <p>
-                                In my time at UChicago, here were some memorable teaching jobs I've held:
-                            </p>
-                            <span class="image main"><img src="images/tashenans.png" alt="pink" style="width:300px;padding-left:20px;padding-bottom:10px" align="right"/></span>
-
-                            <ul>
-                                <li>Afterschool <a href="https://nsp.uchicago.edu/">NSP</a>  tutor for local elementary, middle, and high school children.</li>
-                                <li>UChicago <a href="https://college.uchicago.edu/academics/college-core-tutor-program">Core Tutor</a> in Physics.</li>
-                                <li>I am currently a <a href="https://physics.uchicago.edu/about/job-opportunities/learning-assistant-program/">Learning Assistant</a> for the UChicago Physics 130s Lab Sequences</li>
-                            </ul>
-
-                            My passion for teaching stems from the rewarding experience of seeing students grow and develop. 
-                            It's a privilege to be a part of their learning journey, and give them the resources they need to love and enjoy learning.
-
-
-                            
-                            <!-- <h3>Electric Circuit Building</h3>
-                            
-                            <h3>Photography</h3> -->
-
-                            <!-- <h3>UChicago Course Recommendations</h3> -->
-
-                            <!-- <h3>Teaching Experience</h3> -->
-                            
-                        </article>
-
-						<!-- About -->
-							<!-- <article id="about">
-								<h2 class="major">CV</h2>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
-							</article> -->
-
-						<!-- Contact -->
-							<!-- <article id="contact">
-								<h2 class="major">Contact</h2>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="4"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Reset" /></li>
-									</ul>
-								</form>
-							</article> -->
-
-						<!-- Elements -->
-							<article id="elements">
-								<h2 class="major">Elements</h2>
-
-								<section>
-									<h3 class="major">Text</h3>
-									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-									<hr />
-									<h2>Heading Level 2</h2>
-									<h3>Heading Level 3</h3>
-									<h4>Heading Level 4</h4>
-									<h5>Heading Level 5</h5>
-									<h6>Heading Level 6</h6>
-									<hr />
-									<h4>Blockquote</h4>
-									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-									<h4>Preformatted</h4>
-									<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-								</section>
-
-								<section>
-									<h3 class="major">Lists</h3>
-
-									<h4>Unordered</h4>
-									<ul>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Alternate</h4>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Ordered</h4>
-									<ol>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis viverra.</li>
-										<li>Felis enim feugiat.</li>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis lorem.</li>
-										<li>Felis enim et feugiat.</li>
-									</ol>
-									<h4>Icons</h4>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									</ul>
-
-									<h4>Actions</h4>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Table</h3>
-									<h4>Default</h4>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-
-									<h4>Alternate</h4>
-									<div class="table-wrapper">
-										<table class="alt">
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-								</section>
-
-								<section>
-									<h3 class="major">Buttons</h3>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Primary</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button">Default</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-									</ul>
-									<ul class="actions">
-										<li><span class="button primary disabled">Disabled</span></li>
-										<li><span class="button disabled">Disabled</span></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Form</h3>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="demo-name">Name</label>
-												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-											</div>
-											<div class="field half">
-												<label for="demo-email">Email</label>
-												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-											</div>
-											<div class="field">
-												<label for="demo-category">Category</label>
-												<select name="demo-category" id="demo-category">
-													<option value="">-</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-												<label for="demo-priority-low">Low</label>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-high" name="demo-priority">
-												<label for="demo-priority-high">High</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-copy" name="demo-copy">
-												<label for="demo-copy">Email me a copy</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-human" name="demo-human" checked>
-												<label for="demo-human">Not a robot</label>
-											</div>
-											<div class="field">
-												<label for="demo-message">Message</label>
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</section>
-
-							</article>
-                            
-
-
-					</div>
+							</header>
+						</div>
+					</section>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">Alicia M. Chun</a></p>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/aliciamchun/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/aliciamchun" class="icon brands fa-github"><span class="label">Instagram</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>Alicia M. chun</li>
+						</ul>
 					</footer>
 
 			</div>
 
-		<!-- BG -->
-			<div id="bg"></div>
-
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-            <script>
-                function myFunction() {
-                  var dots = document.getElementById("dots");
-                  var moreText = document.getElementById("more");
-                  var btnText = document.getElementById("myBtn");
-                
-                  if (dots.style.display === "none") {
-                    dots.style.display = "inline";
-                    btnText.innerHTML = "Read more"; 
-                    moreText.style.display = "none";
-                  } else {
-                    dots.style.display = "none";
-                    btnText.innerHTML = "Read less"; 
-                    moreText.style.display = "inline";
-                  }
-                }
-            </script>
 
 	</body>
 </html>
